@@ -15,7 +15,7 @@ class MainTest extends PHPUnit_Framework_TestCase
          * zweiter Parameter = IBAN
          * dritter Paramenter = BIC
          */
-        $creator->setAccountValues('mein Name', 'meine IBAN', 'meine BIC');
+        $creator->setAccountValues('mein Name', 'DE89370400440532013000', 'HANDFIHH');
 
         /*
          * Setzen Sie von der Bundesbank übermittelte Gläubiger-ID
