@@ -1,4 +1,7 @@
 <?php
+  
+require_once 'SepaXmlCreator.php';
+
 class MainTest extends PHPUnit_Framework_TestCase
 {
     public function testMain()
