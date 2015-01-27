@@ -3,7 +3,7 @@ class MainTest extends PHPUnit_Framework_TestCase
 {
     public function testMain()
     {
-            // Erzeugen einer neuen Instanz
+        // Erzeugen einer neuen Instanz
         $creator = new SepaXmlCreator();
 
         /*
